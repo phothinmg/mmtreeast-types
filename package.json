@@ -1,0 +1,19 @@
+{
+  "name": "mmtreeast-types",
+  "version": "1.0.0",
+  "description": "Types for mmtreeast",
+  "scripts": {
+    "build": "./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "lwe8-build": "^0.1.12"
+  }
+}
