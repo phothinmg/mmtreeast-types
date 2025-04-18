@@ -1,6 +1,6 @@
 {
   "name": "mmtreeast-types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Types for mmtreeast",
   "scripts": {
     "build": "./build.js"
