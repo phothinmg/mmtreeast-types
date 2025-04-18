@@ -1,6 +1,8 @@
 import type { HTMLAttributeNames, HTMLTagNames } from "./types";
+
+export type DataAttributeNames = `data-${string}`;
 export type HTMLAttributeType = Partial<
-  Record<HTMLAttributeNames, string | string[]>
+  Record<HTMLAttributeNames | DataAttributeNames, string | string[]>
 >;
 export type HText = {
   type: "text";
