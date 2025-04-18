@@ -5,8 +5,14 @@
   "scripts": {
     "build": "./build.js"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "keywords": [],
-  "author": "",
+  "author": "Pho Thin Mg <phothinmg@disroot.org>",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
@@ -15,5 +21,16 @@
   },
   "dependencies": {
     "lwe8-build": "^0.1.12"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/mmtreeast-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phothinmg/mmtreeast-types/issues"
   }
 }
