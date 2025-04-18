@@ -20,6 +20,10 @@ const options = {
     {
       path: "./src/types.ts",
     },
+    {
+      path: "./src/htree.ts",
+      lines: 1,
+    },
   ],
 };
 
